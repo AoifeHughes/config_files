@@ -1,7 +1,7 @@
 #!/bin/zsh
 socket_file=$(~/bin/emacsserver)
 emacs=/Applications/Emacs.app/Contents/MacOS/Emacs
-emacsclient=/Applications/Emacs.app/Contents/MacOS/bin/emacsclient
+emacsclient=/opt/homebrew/bin/emacsclient
 
 if [[ $socket_file == "" ]]; then
 echo "starting Emacs server..."
